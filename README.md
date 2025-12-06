@@ -11,9 +11,9 @@ provide a single, holistic view of a user's wellness, transforming raw numbers i
 personalized insights.
 
 Target Audience:
-● Fitness enthusiasts who want to optimize their training and recovery by understanding
+- Fitness enthusiasts who want to optimize their training and recovery by understanding
 how sleep and nutrition impact performance.
-● Health-conscious individuals seeking to make informed lifestyle choices based on their
+- Health-conscious individuals seeking to make informed lifestyle choices based on their
 own data.
-● People managing chronic conditions who need to track multiple health metrics and
+- People managing chronic conditions who need to track multiple health metrics and
 understand their correlations.
