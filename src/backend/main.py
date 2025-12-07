@@ -7,8 +7,9 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from src.backend.metrics import compute_wellness_summary, load_health_data
 
-DATA_PATH = Path(__file__).resolve().parents[2] / "data" / "mock_health_metrics.csv"
-# DATA_PATH = Path(__file__).resolve().parents[2] / "data" / "mock_health_metrics_anomaly.csv"
+# DATA_PATH = Path(__file__).resolve().parents[2] / "data" / "mock_health_metrics.csv"
+DATA_PATH = Path(__file__).resolve().parents[2] / "data" / "mock_health_metrics_anomaly.csv"
+# DATA_PATH = Path(__file__).resolve().parents[2] / "data" / "mock_health_metrics_highscore.csv"
 
 
 app = FastAPI(title="Health Assistant API", version="0.1.0")
