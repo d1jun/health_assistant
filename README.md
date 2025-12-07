@@ -33,3 +33,9 @@ you apply AI.
 - Responsible AI: Awareness of ethical considerations, security, and limitations.
 
 Demo: [insert youtube link]
+
+Example with health data anomalies
+![Example with health data anomalies](assets/demo_anomalies.png)
+
+Example without anomalies
+![Example without anomalies](assets/demo.png)
