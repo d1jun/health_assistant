@@ -39,3 +39,6 @@ Example with health data anomalies
 
 Example without anomalies
 ![Example without anomalies](assets/demo.png)
+
+Example with high wellness score
+![High wellness score](assets/demo_highscore.png)
