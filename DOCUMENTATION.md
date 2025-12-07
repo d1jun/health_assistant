@@ -72,7 +72,7 @@ Feed the LLM the calculation for the wellness score; ask the LLM to suggest a pl
 # Technical Details
 
 ## Tech Stack
-Backend: Python + FastAPI, Pandas/Numpy for metrics. Runs via uvicorn.
+Backend: Python and FastAPI. Pandas/Numpy for metrics and ML anomaly detection. Runs via uvicorn. [Future: ChatGPT for AI suggestions]
 
 Data: Mock data generated with ChatGPT.
 
@@ -100,6 +100,9 @@ Run an anomaly detection model on the current week's data vs the past month's da
 Feed the LLM the calculation for the normalized metrics and the wellness score. We can rank each wellness category by how large the normalized metrics are; the smallest normalized metric corresponds to the wellness category that needs most improvement. Tell the LLM that this wellness category could use improvement. Feed the LLM any anomalies in the user's health data. Ask the LLM to suggest a plan to improve the low score category. 
 
 Note: For the hackathon MVP, I won't be hooking the app up to an LLM to generate suggestions. Instead, I'll hard code the suggestions based on the user's health metrics and anomalies.
+
+#### Responsible AI Considerations
+All health data should be de-identified before being fed into the LLM.
 
 ## Dashboard UI
 The MVP will be a dashboard containing components.
