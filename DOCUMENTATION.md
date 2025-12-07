@@ -9,7 +9,7 @@ There needs to be a way to aggregate health data to provide a single view of a u
 
 # Research
 ### Health Data 
-What data can we track? (non-exhuastive list)
+What data can we track? (non-exhaustive list)
 - Steps
 - Activity Data
     - Calories expended
@@ -55,13 +55,15 @@ Additionally, I'll use the article cited above to say that heart rate variabilit
 
 # Proposed Solution + MVP
 
-Create a dashboard that aggregates the user's health data and packages it up into a digestible weekly summary. The dahsboard will contain components for a wellness score (based on aggregated and normalized data) and notable trends (based on ML anomaly detection) and insight suggestion (prompt-based LLM). 
+To solve this problem, let's ingest data from multiple sources and normalize it into a data model, then use ML anomaly detection to interpret relationships, and then present AI-generated health insights in a story-centered dashboard.
+
+Create a dashboard that aggregates the user's health data and packages it up into a digestible weekly summary. The dashboard will contain components for a wellness score (based on aggregated and normalized data) and notable trends (based on ML anomaly detection) and insight suggestion (prompt-based LLM). 
 
 The wellness score gives the user a high-level overview of their personal health for that week.
 
     Wellness Score: 67/100
 
-The notable trends gives the user a deeper insight into anomalies that could be affecting their overall well-being.
+The notable trends give the user a deeper insight into anomalies that could be affecting their overall well-being.
 
 The suggested action provides the user with a change that should positively impact their wellness score.
 Feed the LLM the calculation for the wellness score; ask the LLM to suggest a plan to improve the low score category. 
@@ -117,7 +119,7 @@ The MVP will be a dashboard containing components.
 - API/UI contract (single-user demo): backend returns JSON like `{week_range: {start, end}, wellness_score, normalized_metrics: {exercise, sleep, nutrition, fatigue}, anomalies: [...], suggestion: {text, caveats}}`. React renders wellness score and suggestion; anomalies can be shown inline or used solely for the LLM prompt.
 - [Optional/Future Enhancement] Testing baseline: add unit tests for (1) normalization with zero-variance and outlier clipping, (2) wellness score aggregation, and (3) anomaly detection thresholds. Validate with the provided 28-day fixture to ensure deterministic outputs for the demo.
 
-# Future Enhancements for the future
+# Future Enhancements
 - Allow the user to see the dashboard content from previous weeks
 - Allow the user to compare content from previous weeks
 - Allow the user to upload their progress pictures, which will be associated with the user's data and stats from that timeframe.
