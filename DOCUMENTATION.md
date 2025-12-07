@@ -100,6 +100,9 @@ Feed the LLM the calculation for the normalized metrics and the wellness score; 
 Python backend -> JSON -> React
 
 ## Dashboard UI
+The MVP will be a dashboard containing two components.
+1. A component displaying the user's wellness score.
+2. A component displaying LLM generated health suggestion based on the user's health metrics and anomalies in the user's health metrics.
 
 # Future Enhancements
 - Allow the user to see the dashboard content from previous weeks
