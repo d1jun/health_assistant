@@ -17,3 +17,19 @@ how sleep and nutrition impact performance.
 own data.
 - People managing chronic conditions who need to track multiple health metrics and
 understand their correlations.
+
+Submission Requirements
+- Working Prototype/Demo: A functional application that demonstrates your chosen MVP features. This can be a web app, a command-line tool, or a compelling interactive simulation.
+- Presentation (5-7 minutes): A concise video recording covering the problem, your solution's core features, a live demonstration, and your key learnings and challenges.
+- Design Documentation: A document outlining your design choices, the technical stack used (programming languages, libraries, AI models), and potential future enhancements.
+
+Case Challenge: How You'll Be Scored
+- Problem Understanding: How clearly you define the problem and align your solution to
+it.
+- Technical Rigor: The quality and soundness of your technical approach, including how
+you apply AI.
+- Creativity: Your originality, practicality, and forward-thinking in designing the solution.
+- Prototype Quality: How well your demo works and communicates your core concept.
+- Responsible AI: Awareness of ethical considerations, security, and limitations.
+
+Demo: [insert youtube link]
