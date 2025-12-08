@@ -34,7 +34,7 @@ you apply AI.
 - Prototype Quality: How well your demo works and communicates your core concept.
 - Responsible AI: Awareness of ethical considerations, security, and limitations.
 
-## Demo: [insert youtube link]
+## Demo: [Youtube Link](https://youtu.be/PR6yvQSy1yo)
 
 Example with health data anomalies
 ![Example with health data anomalies](assets/demo_anomalies.png)
